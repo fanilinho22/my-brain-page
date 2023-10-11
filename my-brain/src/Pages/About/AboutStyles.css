@@ -1,0 +1,39 @@
+#About {
+    background: #011933;
+    color: #A3D7E5;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutContent {
+    width: 90%;
+}
+#aboutContent p{
+    font-size: 24px;
+    padding-bottom: 5%;
+}
+#aboutContent h1{
+    color: #A3D7E5;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.68px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#aboutContent hr{
+    border-color: #FF3E1F;
+}
+
+@media (max-width: 768px) {
+    #About{
+        font-size: 12px;
+    }
+  }

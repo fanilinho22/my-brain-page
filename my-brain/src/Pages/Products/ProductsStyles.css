@@ -1,0 +1,245 @@
+#Products {
+    background: #49869B;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#product {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display: flex;
+}
+
+#productTxt {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+#productTxt h2 {
+    color: #A3D7E5;
+    width: 90%;
+    font-size: 30px;
+}
+
+#productTxt button {
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+
+#productTxt li {
+    color: #A3D7E5;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#productImg {
+    background: url('../../Assets/screen.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 5%;
+    width: 65%;
+    height: 750px;
+    display: flex;
+}
+
+#title {
+    color: #f5f5f5;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.68px;
+}
+
+
+@media (max-width: 768px) {
+    #Products {
+        background: #49869B;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #product {
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #productTxt {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 3% 5%;
+    }
+
+    #productTxt h2 {
+        color: #A3D7E5;
+        font-size: 24px;
+    }
+
+    #productTxt button {
+        width: 60%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 20%;
+    }
+
+    #productTxt li {
+        color: #A3D7E5;
+        padding: 5px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #productImg {
+        background: url('../../Assets/screen.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 5% 5% 0;
+        width: 95%;
+        height: 400px;
+    }
+
+    #title {
+        color: #f5f5f5;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 4px;
+    }
+}
+
+#doctor {
+    background: #2A5E73;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#doctorImg {
+    background: url('../../Assets/doctor.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: violet;
+    width: 55%;
+    height: 650px;
+    opacity: 0.6;
+}
+
+#doctorText {
+    width: 55%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#doctorText p {
+    color: #A3D7E5;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+#hardware-container {
+    padding-top: 5%;
+    display: flex;
+    align-items: flex-start;
+}
+
+#text-container {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-container h1 {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+#text-container h1,
+#text-container p,
+#text-container h2,
+#text-container button {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#text-container h2 {
+    display: inline;
+    color: #A3D7E5;
+    font-family: Oswald;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.84px;
+}
+
+#text-container p {
+    width: 70%;
+    color: #A3D7E5;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.32px;
+}
+
+#hardwareImg {
+    background: url('../../Assets/hardware.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 55%;
+    height: 650px;
+    opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+    #hardware-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    #hardwareImg {
+        background: url('../../Assets/hardware.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 55%;
+        height: 650px;
+        opacity: 0.6;
+    }
+}

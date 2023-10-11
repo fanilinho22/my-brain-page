@@ -1,0 +1,67 @@
+#btn {
+    border: none !important;
+    display: inline-block;
+    background-color: #275688;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  
+  #btn::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  
+  #btn:hover {
+    cursor: pointer;
+    background-color: #011933;
+  }
+  
+  #btn:active {
+    background-color: #011225;
+  }
+  
+  .visible #btn {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  @media (min-width: 768px) {
+    #btn {
+      width: 70px;
+      height: 70px;
+      right: 40px;
+      bottom: 40px;
+    }
+  
+    #btn::after {
+      font-size: 2.5em;
+    }
+  }
+  @media (max-width: 576px) {
+    #btn {
+      width: 40px;
+      height: 40px;
+      right: 20px;
+      bottom: 20px;
+    }
+  
+    #btn::after {
+      font-size: 1.5em;
+    }
+  }
+  
